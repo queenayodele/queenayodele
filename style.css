@@ -1,0 +1,35 @@
+/* QAB Website — Queen Ayodele Bezalel */
+:root{
+  --peach:#f7d7c8; --cream:#fff8f4; --paper:#f4efe8; --black:#111111;
+  --maroon:#722f37; --navy:#1f2a44; --green:#4f5b46; --brown:#997452;
+  --muted:#7b6d67; --line:rgba(17,17,17,.20);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--black);line-height:1.6}
+a{color:inherit} img{max-width:100%;display:block}.wrapper{width:min(1180px,calc(100% - 36px));margin:0 auto}
+.topbar{position:sticky;top:0;z-index:50;background:rgba(255,248,244,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--black)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 0}
+.logo-lockup{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.02em;text-decoration:none}
+.logo-lockup img{width:66px;background:#fff;padding:4px;border:1px solid var(--black)}
+.navlinks{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+.navlinks a{text-decoration:none;border-bottom:1px solid transparent}.navlinks a:hover{border-bottom-color:var(--black)}
+.hero{min-height:calc(100vh - 82px);display:grid;grid-template-columns:1.05fr .95fr;align-items:stretch;border-bottom:2px solid var(--black)}
+.hero-image{background:url('../images/queen-ayodele-hero-banner.jpg') left center/cover no-repeat;min-height:620px;border-right:2px solid var(--black)}
+.hero-copy{background:linear-gradient(rgba(255,248,244,.90),rgba(255,248,244,.93)),url('../images/texture-editorial-paper.jpg') center/cover;padding:clamp(34px,6vw,74px);display:flex;flex-direction:column;justify-content:center}
+.kicker{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:700;color:var(--maroon);margin-bottom:14px}
+h1,h2,h3{line-height:1;margin:0} h1{font-size:clamp(54px,8vw,100px);letter-spacing:-.07em;margin-bottom:18px}
+h2{font-size:clamp(34px,5vw,58px);letter-spacing:-.04em;margin-bottom:18px} h3{font-size:25px;letter-spacing:-.02em;margin-bottom:8px}
+.lede{font-size:clamp(19px,2vw,24px);max-width:760px}.hero p{font-size:17px}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border:2px solid var(--black);background:var(--black);color:#fff;text-decoration:none;font-weight:700;font-family:Arial,sans-serif;font-size:13px;letter-spacing:.05em;text-transform:uppercase}
+.btn.secondary{background:transparent;color:var(--black)}.btn:hover{background:var(--maroon);border-color:var(--maroon);color:white}
+section{padding:72px 0;border-bottom:2px solid var(--black)}.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:34px;align-items:start}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1.5px solid var(--black);padding:24px;min-height:230px;box-shadow:6px 6px 0 rgba(17,17,17,.08)}
+.card.maroon{border-top:7px solid var(--maroon)}.card.navy{border-top:7px solid var(--navy)}.card.green{border-top:7px solid var(--green)}.card.peach{border-top:7px solid var(--peach)}
+.card p{margin:0 0 14px}.tag{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;border:1px solid var(--black);display:inline-block;padding:4px 7px;margin-bottom:14px;background:var(--paper)}
+.about-photo{border:2px solid var(--black);background:#fff;padding:10px}.about-photo img{aspect-ratio:4/5;object-fit:cover;width:100%}
+.editorial-band{background:linear-gradient(rgba(17,17,17,.88),rgba(17,17,17,.88)),url('../images/texture-dark-editorial.jpg') center/cover;color:white}.editorial-band .card{background:rgba(255,248,244,.98);color:var(--black)}
+.links-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.link-card{border:1.5px solid var(--black);background:#fff;padding:18px;text-decoration:none;font-weight:700}.link-card:hover{background:var(--peach)}
+.logo-card img{max-height:190px;width:auto;margin:0 auto 16px;background:white}.newsletter{background:linear-gradient(rgba(247,215,200,.86),rgba(247,215,200,.88)),url('../images/texture-qab-editorial-collage.jpg') center/cover}
+.footer{background:var(--black);color:white;padding:44px 0}.footer a{color:white;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.footer-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px}.small{font-size:13px;color:var(--muted)}.footer .small{color:#d6c9c3}hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-image{min-height:420px;border-right:0;border-bottom:2px solid var(--black)}.split,.cards,.links-grid,.footer-grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}.navlinks{font-size:12px;gap:10px}}

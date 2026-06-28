@@ -1,0 +1,86 @@
+{
+  "queen-ayodele-hero-banner": {
+    "source": "/mnt/data/ABANNER.png",
+    "web": "assets/images/queen-ayodele-hero-banner.jpg",
+    "original_size": [
+      1916,
+      821
+    ],
+    "web_size": [
+      1916,
+      821
+    ]
+  },
+  "queen-ayodele-headshot": {
+    "source": "/mnt/data/QAB- CLOSE UP HEADSHOT.jpg",
+    "web": "assets/images/queen-ayodele-headshot.jpg",
+    "original_size": [
+      1330,
+      1432
+    ],
+    "web_size": [
+      1200,
+      1292
+    ]
+  },
+  "queen-ayodele-standing": {
+    "source": "/mnt/data/Queen Ayodele Bezalel.jpg",
+    "web": "assets/images/queen-ayodele-standing.jpg",
+    "original_size": [
+      1655,
+      2048
+    ],
+    "web_size": [
+      1600,
+      1979
+    ]
+  },
+  "queen-ayodele-sitting": {
+    "source": "/mnt/data/QAB- IMAGE.jpg",
+    "web": "assets/images/queen-ayodele-sitting.jpg",
+    "original_size": [
+      1950,
+      2048
+    ],
+    "web_size": [
+      1600,
+      1680
+    ]
+  },
+  "qab-logo": {
+    "source": "/mnt/data/QAB-  LOGO.png",
+    "web": "assets/images/qab-logo.png",
+    "original_size": [
+      639,
+      387
+    ],
+    "web_size": [
+      639,
+      387
+    ]
+  },
+  "christian-mentality-logo": {
+    "source": "/mnt/data/Christian mentality LOGO (1).png",
+    "web": "assets/images/christian-mentality-logo.png",
+    "original_size": [
+      500,
+      500
+    ],
+    "web_size": [
+      500,
+      500
+    ]
+  },
+  "founders-circle-logo": {
+    "source": "/mnt/data/image.png",
+    "web": "assets/images/founders-circle-logo.png",
+    "original_size": [
+      200,
+      200
+    ],
+    "web_size": [
+      200,
+      200
+    ]
+  }
+}
